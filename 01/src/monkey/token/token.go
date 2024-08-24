@@ -44,6 +44,7 @@ const (
 )
 
 type Token struct {
+	// When a struct or such is capitalized, it's exported
 	Type    TokenType
 	Literal string
 }
